@@ -1,0 +1,53 @@
+[2025-05-12T01:26:14] COMMAND | user_id=7 | action=view_user_information | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:26:14] COMMAND_RESULT | user_id=7 | action=view_user_information | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:26:39] COMMAND | user_id=7 | action=booking | params={"id": 7, "room": 505, "beds": 2, "checkin": "20-02-2025", "checkout": "22-02-2025"} | status=N/A | message=N/A
+[2025-05-12T01:26:39] FILE_CHANGE | user_id=7 | action=write_RoomsInfo | params={} | status=N/A | message=N/A | file=RoomsInfo.json | change_summary=Booked room number=505 for user id=7
+[2025-05-12T01:26:39] FILE_CHANGE | user_id=7 | action=write_UsersInfo | params={} | status=N/A | message=N/A | file=UsersInfo.json | change_summary=Updated purse for user id=7
+[2025-05-12T01:26:39] COMMAND_RESULT | user_id=7 | action=booking | params={"id": 7, "room": 505, "beds": 2, "checkin": "20-02-2025", "checkout": "22-02-2025"} | status=104 | message=Successfully added.
+[2025-05-12T01:26:49] COMMAND | user_id=7 | action=get_active_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:26:49] COMMAND_RESULT | user_id=7 | action=get_active_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:26:53] COMMAND | user_id=7 | action=leaving | params={"room": 505, "id": 7} | status=N/A | message=N/A
+[2025-05-12T01:26:53] COMMAND_RESULT | user_id=7 | action=leaving | params={"room": 505, "id": 7} | status=401 | message=Invalid value!
+[2025-05-12T01:27:01] COMMAND | user_id=7 | action=get_active_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:01] COMMAND_RESULT | user_id=7 | action=get_active_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:27:11] COMMAND | user_id=7 | action=leaving | params={"room": 505, "id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:11] COMMAND_RESULT | user_id=7 | action=leaving | params={"room": 505, "id": 7} | status=401 | message=Invalid value!
+[2025-05-12T01:27:13] COMMAND | user_id=7 | action=get_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:13] COMMAND_RESULT | user_id=7 | action=get_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:27:22] COMMAND | user_id=7 | action=cancel | params={"room": 505, "beds": 2, "id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:22] FILE_CHANGE | user_id=7 | action=write_RoomsInfo | params={} | status=N/A | message=N/A | file=RoomsInfo.json | change_summary=Cancelled 2 beds in room number=505 for user id=7
+[2025-05-12T01:27:22] FILE_CHANGE | user_id=7 | action=write_UsersInfo | params={} | status=N/A | message=N/A | file=UsersInfo.json | change_summary=Refunded purse for user id=7
+[2025-05-12T01:27:22] COMMAND_RESULT | user_id=7 | action=cancel | params={"room": 505, "beds": 2, "id": 7} | status=110 | message=Successfully done.
+[2025-05-12T01:27:26] COMMAND | user_id=7 | action=get_active_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:26] COMMAND_RESULT | user_id=7 | action=get_active_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:27:29] COMMAND | user_id=7 | action=leaving | params={"room": 505, "id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:29] COMMAND_RESULT | user_id=7 | action=leaving | params={"room": 505, "id": 7} | status=401 | message=Invalid value!
+[2025-05-12T01:27:34] COMMAND | user_id=7 | action=get_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:34] COMMAND_RESULT | user_id=7 | action=get_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:27:49] COMMAND | user_id=7 | action=cancel | params={"room": 505, "beds": 3, "id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:49] FILE_CHANGE | user_id=7 | action=write_RoomsInfo | params={} | status=N/A | message=N/A | file=RoomsInfo.json | change_summary=Cancelled 3 beds in room number=505 for user id=7
+[2025-05-12T01:27:49] FILE_CHANGE | user_id=7 | action=write_UsersInfo | params={} | status=N/A | message=N/A | file=UsersInfo.json | change_summary=Refunded purse for user id=7
+[2025-05-12T01:27:49] COMMAND_RESULT | user_id=7 | action=cancel | params={"room": 505, "beds": 3, "id": 7} | status=110 | message=Successfully done.
+[2025-05-12T01:27:56] COMMAND | user_id=7 | action=get_active_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:27:56] COMMAND_RESULT | user_id=7 | action=get_active_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:28:01] COMMAND | user_id=7 | action=get_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:28:01] COMMAND_RESULT | user_id=7 | action=get_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:28:04] COMMAND | user_id=7 | action=get_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:28:04] COMMAND_RESULT | user_id=7 | action=get_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:28:23] COMMAND | user_id=7 | action=booking | params={"id": 7, "room": 505, "beds": 2, "checkin": "22-02-2025", "checkout": "23-02-2025"} | status=N/A | message=N/A
+[2025-05-12T01:28:23] FILE_CHANGE | user_id=7 | action=write_RoomsInfo | params={} | status=N/A | message=N/A | file=RoomsInfo.json | change_summary=Booked room number=505 for user id=7
+[2025-05-12T01:28:23] FILE_CHANGE | user_id=7 | action=write_UsersInfo | params={} | status=N/A | message=N/A | file=UsersInfo.json | change_summary=Updated purse for user id=7
+[2025-05-12T01:28:23] COMMAND_RESULT | user_id=7 | action=booking | params={"id": 7, "room": 505, "beds": 2, "checkin": "22-02-2025", "checkout": "23-02-2025"} | status=104 | message=Successfully added.
+[2025-05-12T01:28:26] COMMAND | user_id=7 | action=get_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:28:26] COMMAND_RESULT | user_id=7 | action=get_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:28:31] COMMAND | user_id=7 | action=cancel | params={"room": 2, "beds": 2, "id": 7} | status=N/A | message=N/A
+[2025-05-12T01:28:31] COMMAND_RESULT | user_id=7 | action=cancel | params={"room": 2, "beds": 2, "id": 7} | status=101 | message=The desired room was not found
+[2025-05-12T01:28:35] COMMAND | user_id=7 | action=get_active_reservations | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:28:35] COMMAND_RESULT | user_id=7 | action=get_active_reservations | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:28:55] COMMAND | user_id=7 | action=edit_info | params={"id": 7, "field": "address", "value": "tehran, iran, -2"} | status=N/A | message=N/A
+[2025-05-12T01:28:55] FILE_CHANGE | user_id=7 | action=write_UsersInfo | params={} | status=N/A | message=N/A | file=UsersInfo.json | change_summary=Updated address for user id=7
+[2025-05-12T01:28:55] COMMAND_RESULT | user_id=7 | action=edit_info | params={"id": 7, "field": "address", "value": "tehran, iran, -2"} | status=312 | message=Information was changed successfully.
+[2025-05-12T01:28:59] COMMAND | user_id=7 | action=view_user_information | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:28:59] COMMAND_RESULT | user_id=7 | action=view_user_information | params={"id": 7} | status=001 | message=Request validated successfully
+[2025-05-12T01:29:06] COMMAND | user_id=7 | action=logout | params={"id": 7} | status=N/A | message=N/A
+[2025-05-12T01:29:06] COMMAND_RESULT | user_id=7 | action=logout | params={"id": 7} | status=201 | message=User logged out successfully.

@@ -1,0 +1,8 @@
+[2025-05-12T01:29:57] FILE_CHANGE | user_id=8 | action=write_UsersInfo | params={} | status=N/A | message=N/A | file=UsersInfo.json | change_summary=Added user id=8
+[2025-05-12T01:29:57] USER_CREATED | user_id=8 | action=signup | username=sara
+[2025-05-12T01:29:59] COMMAND | user_id=8 | action=view_user_information | params={"id": 8} | status=N/A | message=N/A
+[2025-05-12T01:29:59] COMMAND_RESULT | user_id=8 | action=view_user_information | params={"id": 8} | status=001 | message=Request validated successfully
+[2025-05-12T01:30:19] COMMAND | user_id=8 | action=booking | params={"id": 8, "room": 6000, "beds": 2, "checkin": "24-02-2025", "checkout": "27-02-2025"} | status=N/A | message=N/A
+[2025-05-12T01:30:19] COMMAND_RESULT | user_id=8 | action=booking | params={"id": 8, "room": 6000, "beds": 2, "checkin": "24-02-2025", "checkout": "27-02-2025"} | status=108 | message=Your account balance is not enough
+[2025-05-12T01:30:37] COMMAND | user_id=8 | action=logout | params={"id": 8} | status=N/A | message=N/A
+[2025-05-12T01:30:37] COMMAND_RESULT | user_id=8 | action=logout | params={"id": 8} | status=201 | message=User logged out successfully.

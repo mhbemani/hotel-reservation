@@ -1,0 +1,77 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "user": "admin",
+            "password": "admin",
+            "admin": true
+        },
+        {
+            "id": 1,
+            "user": "Morad",
+            "password": "1234",
+            "admin": false,
+            "purse": "1000",
+            "phoneNumber": "00945692356",
+            "address": "Canada, Montral"
+        },
+        {
+            "id": 2,
+            "user": "Jasem",
+            "password": "4321",
+            "admin": false,
+            "purse": "200",
+            "phoneNumber": "00125692356",
+            "address": "United States, Newyork"
+        },
+        {
+            "id": 3,
+            "user": "Pedram",
+            "password": "6789",
+            "admin": false,
+            "purse": "10",
+            "phoneNumber": "00989112659874",
+            "address": "Iran, Rasht"
+        },
+        {
+            "id": 4,
+            "user": "Pouya",
+            "password": "1357",
+            "admin": false,
+            "purse": "750",
+            "phoneNumber": "09123456789",
+            "address": "Iran, kerman"
+        },
+        {
+            "id": 5,
+            "user": "Ali",
+            "password": "2813",
+            "admin": false,
+            "purse": "1580",
+            "phoneNumber": "09197555740",
+            "address": "Iran, tehran"
+        },
+        {
+            "id": 6,
+            "user": "Alireza",
+            "password": "silicon",
+            "admin": true
+        },
+        {
+            "id": 7,
+            "user": "mamdoos",
+            "password": "1234",
+            "admin": false,
+            "purse": 999710.0,
+            "address": "tehran, iran, -2",
+            "phoneNumber": "09017248218"
+        },
+        {
+            "id": 8,
+            "user": "sara",
+            "password": "1212",
+            "admin": false,
+            "purse": 0
+        }
+    ]
+}
